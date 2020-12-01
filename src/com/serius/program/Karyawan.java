@@ -95,6 +95,7 @@ public class Karyawan extends javax.swing.JFrame {
         btnHapus = new javax.swing.JButton();
         btnBatal = new javax.swing.JButton();
         btnKeluar = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -219,6 +220,10 @@ public class Karyawan extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(473, 320, 58, -1));
+
+        jPanel2.setBackground(new java.awt.Color(189, 177, 177));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 660, 490));
 
         pack();
         setLocationRelativeTo(null);
@@ -366,6 +371,7 @@ public class Karyawan extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tbKaryawan;
     private javax.swing.JTextField txtAlamat;
