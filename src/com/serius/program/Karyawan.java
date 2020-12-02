@@ -141,8 +141,8 @@ public class Karyawan extends javax.swing.JFrame {
         });
         getContentPane().add(txtNIK, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 98, 300, -1));
         getContentPane().add(txtNama, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 133, 300, -1));
-        getContentPane().add(txtAlamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 203, 296, -1));
-        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 238, 296, -1));
+        getContentPane().add(txtAlamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 203, 300, -1));
+        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 238, 300, -1));
 
         cbJabatan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CEO", "Director", "Admin", "Member" }));
         cbJabatan.addActionListener(new java.awt.event.ActionListener() {
@@ -150,8 +150,8 @@ public class Karyawan extends javax.swing.JFrame {
                 cbJabatanActionPerformed(evt);
             }
         });
-        getContentPane().add(cbJabatan, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 168, 304, -1));
-        getContentPane().add(txtTlp, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 273, 296, -1));
+        getContentPane().add(cbJabatan, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 168, 300, -1));
+        getContentPane().add(txtTlp, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 273, 300, -1));
 
         tbKaryawan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
